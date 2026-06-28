@@ -1,9 +1,9 @@
 import testData from "./testdata.json" with { type: "json" };
-import Batsman from "./models/batsman.js";
-import Bowler from "./models/bowler.js";
-import AllRounder from "./models/allrounder.js";
-import Team from "./models/team.js";
-import AuctionUtils from "./utils/auctionutils.js";
+import Batsman from "./Models/batsman.js";
+import Bowler from "./Models/bowler.js";
+import AllRounder from "./Models/allrounder.js";
+import Team from "./Models/team.js";
+import AuctionUtils from "./Utils/auctionutils.js";
 
 const team1 = new Team(testData.teams[0].id, testData.teams[0].name);
 const team2 = new Team(testData.teams[1].id, testData.teams[1].name);

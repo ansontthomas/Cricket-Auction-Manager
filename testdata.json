@@ -1,0 +1,117 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Virat Kohli",
+      "age": 36,
+      "role": "Batsman",
+      "basePrice": 200,
+      "soldPrice": 300,
+      "isSold": true,
+      "totalRuns": 12000
+    },
+    {
+      "id": 2,
+      "name": "Rohit Sharma",
+      "age": 38,
+      "role": "Batsman",
+      "basePrice": 180,
+      "soldPrice": 250,
+      "isSold": true,
+      "totalRuns": 11000
+    },
+    {
+      "id": 3,
+      "name": "Shubman Gill",
+      "age": 25,
+      "role": "Batsman",
+      "basePrice": 150,
+      "soldPrice": 220,
+      "isSold": true,
+      "totalRuns": 5000
+    },
+    {
+      "id": 4,
+      "name": "Jasprit Bumrah",
+      "age": 31,
+      "role": "Bowler",
+      "basePrice": 200,
+      "soldPrice": 280,
+      "isSold": true,
+      "totalWickets": 350
+    },
+    {
+      "id": 5,
+      "name": "Mohammed Shami",
+      "age": 34,
+      "role": "Bowler",
+      "basePrice": 160,
+      "soldPrice": 210,
+      "isSold": true,
+      "totalWickets": 300
+    },
+    {
+      "id": 6,
+      "name": "Ravindra Jadeja",
+      "age": 36,
+      "role": "AllRounder",
+      "basePrice": 180,
+      "soldPrice": 260,
+      "isSold": true,
+      "totalRuns": 3500,
+      "totalWickets": 250
+    },
+    {
+      "id": 7,
+      "name": "Hardik Pandya",
+      "age": 31,
+      "role": "AllRounder",
+      "basePrice": 170,
+      "soldPrice": 240,
+      "isSold": true,
+      "totalRuns": 2500,
+      "totalWickets": 100
+    },
+    {
+      "id": 8,
+      "name": "Yuzvendra Chahal",
+      "age": 34,
+      "role": "Bowler",
+      "basePrice": 140,
+      "soldPrice": 190,
+      "isSold": true,
+      "totalWickets": 220
+    },
+    {
+      "id": 9,
+      "name": "Suryakumar Yadav",
+      "age": 34,
+      "role": "Batsman",
+      "basePrice": 150,
+      "soldPrice": 230,
+      "isSold": true,
+      "totalRuns": 4000
+    },
+    {
+      "id": 10,
+      "name": "Axar Patel",
+      "age": 31,
+      "role": "AllRounder",
+      "basePrice": 150,
+      "soldPrice": 200,
+      "isSold": true,
+      "totalRuns": 2000,
+      "totalWickets": 180
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Royal Challengers Bangalore"
+    },
+    {
+      "id": 2,
+      "name": "Mumbai Indians"
+    }
+  ]
+}

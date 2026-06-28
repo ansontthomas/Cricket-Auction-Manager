@@ -3,7 +3,7 @@ import Batsman from "./models/batsman.js";
 import Bowler from "./models/bowler.js";
 import AllRounder from "./models/allrounder.js";
 import Team from "./models/team.js";
-import AuctionUtils from "./utils/auctionUtils.js";
+import AuctionUtils from "./utils/auctionutils.js";
 
 const team1 = new Team(testData.teams[0].id, testData.teams[0].name);
 const team2 = new Team(testData.teams[1].id, testData.teams[1].name);

@@ -22,8 +22,8 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install dependencies
-        run: npm ci
+    #   - name: Install dependencies
+    #     run: npm ci
 
       - name: Run cricket auction manager
         run: node app.js

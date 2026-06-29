@@ -79,38 +79,7 @@ for (let i = 0; i < testData.players.length; i++) {
         teamSold: selectedTeam.name
     });
 }
-console.log("========== ACCEPTED PLAYERS ==========");
 
-for (let i = 0; i < acceptedPlayers.length; i++) {
-    console.log("ID:", acceptedPlayers[i].id);
-    console.log("Name:", acceptedPlayers[i].name);
-    console.log("Age:", acceptedPlayers[i].age);
-    console.log("Role:", acceptedPlayers[i].role);
-    console.log("Base Price:", acceptedPlayers[i].basePrice);
-    console.log("Sold Price:", acceptedPlayers[i].soldPrice);
-
-    if (acceptedPlayers[i].role === "Batsman") {
-        console.log("Total Runs:", acceptedPlayers[i].totalRuns);
-    }
-
-    if (acceptedPlayers[i].role === "Bowler") {
-        console.log("Total Wickets:", acceptedPlayers[i].totalWickets);
-    }
-
-    if (acceptedPlayers[i].role === "AllRounder") {
-        console.log("Total Runs:", acceptedPlayers[i].totalRuns);
-        console.log("Total Wickets:", acceptedPlayers[i].totalWickets);
-    }
-
-
-}
-console.log("========== ACCEPTED TEAMS ==========");
-
-for (let i = 0; i < acceptedTeams.length; i++) {
-    console.log("Team ID:", acceptedTeams[i].id);
-    console.log("Team Name:", acceptedTeams[i].name);
-
-}
 console.log("========== FINAL AUCTION RESULT ==========");
 for (let i = 0; i < auctionResults.length; i++) {
     console.log("ID:", auctionResults[i].id);
@@ -119,3 +88,37 @@ for (let i = 0; i < auctionResults.length; i++) {
     console.log("Team Sold:", auctionResults[i].teamSold);
 
 }
+
+
+// console.log("========== ACCEPTED PLAYERS ==========");
+
+// for (let i = 0; i < acceptedPlayers.length; i++) {
+//     console.log("ID:", acceptedPlayers[i].id);
+//     console.log("Name:", acceptedPlayers[i].name);
+//     console.log("Age:", acceptedPlayers[i].age);
+//     console.log("Role:", acceptedPlayers[i].role);
+//     console.log("Base Price:", acceptedPlayers[i].basePrice);
+//     console.log("Sold Price:", acceptedPlayers[i].soldPrice);
+
+//     if (acceptedPlayers[i].role === "Batsman") {
+//         console.log("Total Runs:", acceptedPlayers[i].totalRuns);
+//     }
+
+//     if (acceptedPlayers[i].role === "Bowler") {
+//         console.log("Total Wickets:", acceptedPlayers[i].totalWickets);
+//     }
+
+//     if (acceptedPlayers[i].role === "AllRounder") {
+//         console.log("Total Runs:", acceptedPlayers[i].totalRuns);
+//         console.log("Total Wickets:", acceptedPlayers[i].totalWickets);
+//     }
+
+
+// }
+// console.log("========== ACCEPTED TEAMS ==========");
+
+// for (let i = 0; i < acceptedTeams.length; i++) {
+//     console.log("Team ID:", acceptedTeams[i].id);
+//     console.log("Team Name:", acceptedTeams[i].name);
+
+// }

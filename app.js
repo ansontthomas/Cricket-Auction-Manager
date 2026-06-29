@@ -55,13 +55,16 @@ for (let i = 0; i < testData.players.length; i++) {
 
 
     const preparedPlayer = AuctionUtils.preparePlayer(player);
-
     if (preparedPlayer === null) {
-        continue;
+    continue;
     }
 
-    acceptedPlayers.push(preparedPlayer);
-
+// Calculate sold price only if player is sold
+    if (preparedPlayer.isSold === true) {
+    preparedPlayer.soldPrice = preparedPlayer.basePrice + 50;
+    } else {
+    preparedPlayer.soldPrice = 0;
+    }
     let selectedTeam;
 
     if (i < 5) {
@@ -76,16 +79,18 @@ for (let i = 0; i < testData.players.length; i++) {
         id: preparedPlayer.id,
         name: preparedPlayer.name,
         role: preparedPlayer.role,
-        teamSold: selectedTeam.name
+        teamSold: selectedTeam.name,
+        soldPrice: preparedPlayer.soldPrice
     });
 }
 
-console.log("========== FINAL AUCTION RESULT ==========");
+console.log(" FINAL AUCTION RESULT ");
 for (let i = 0; i < auctionResults.length; i++) {
     console.log("ID:", auctionResults[i].id);
     console.log("Name:", auctionResults[i].name);
     console.log("Role:", auctionResults[i].role);
     console.log("Team Sold:", auctionResults[i].teamSold);
+    console.log("Sold Price:", auctionResults[i].soldPrice);
 
 }
 

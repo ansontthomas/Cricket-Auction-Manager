@@ -102,14 +102,14 @@ for (let i = 0; i < acceptedPlayers.length; i++) {
         console.log("Total Wickets:", acceptedPlayers[i].totalWickets);
     }
 
-    console.log("--------------------------------------");
+
 }
 console.log("========== ACCEPTED TEAMS ==========");
 
 for (let i = 0; i < acceptedTeams.length; i++) {
     console.log("Team ID:", acceptedTeams[i].id);
     console.log("Team Name:", acceptedTeams[i].name);
-    console.log("------------------------------------");
+
 }
 console.log("========== FINAL AUCTION RESULT ==========");
 for (let i = 0; i < auctionResults.length; i++) {
@@ -117,5 +117,5 @@ for (let i = 0; i < auctionResults.length; i++) {
     console.log("Name:", auctionResults[i].name);
     console.log("Role:", auctionResults[i].role);
     console.log("Team Sold:", auctionResults[i].teamSold);
-    console.log("------------------------------------------");
+
 }

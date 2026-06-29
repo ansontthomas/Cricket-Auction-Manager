@@ -6,6 +6,9 @@ class AuctionUtils {
         if(player.soldPrice < player.basePrice){
             return null;
         }
+        if(player.isSold == false){
+            return null;
+        }
         player.name = player.name.toUpperCase();
 
         return player;
